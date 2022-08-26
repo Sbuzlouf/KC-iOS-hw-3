@@ -37,10 +37,10 @@ struct ContentView: View {
                                     .padding(5)
                                 Text("التقييم: \(our.rate)")
                                    
-                                Text("شنو تحتاج: \n \(our.needs[0]) \n \(our.needs[1])")
+                                Text("شنو تحتاج: \n \(our.needs[0])")
                                     .padding(5)
                                     .multilineTextAlignment(.center)
-                            }.frame(width: 350, height: 200)
+                            }.frame(width: 300, height: 150)
                         }
                     }
                 }.frame(height: 550)
